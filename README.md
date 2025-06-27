@@ -1,46 +1,51 @@
-🚕 Ride Booking Data Analysis Using MySQL
-📊 Project Overview
-This project focuses on analyzing ride booking data by importing a CSV file into MySQL. The goal is to generate meaningful insights for business decisions, such as ride success rates, customer behavior, and vehicle performance.
+# 🚖 Ride Booking Data Analysis with MySQL
 
-📁 Dataset
-The dataset was originally in Excel format and includes columns like:
+A SQL-based data analysis project using real-world ride booking data to extract meaningful business insights from a CSV (Excel) dataset.
 
-Booking Date & Time
+---
 
-Customer ID & Ratings
+## 📌 Project Summary
 
-Vehicle Type
+This project involves importing a ride booking dataset into **MySQL**, followed by solving multiple real-time business queries using **SQL**. It aims to explore patterns in bookings, customer behavior, cancellations, and payment trends in a ride-sharing scenario.
 
-Pickup & Drop Locations
+---
 
-Booking Status
+## 🔍 Key SQL Tasks Performed
 
-Payment Method
+- ✅ Retrieve all **successful bookings**
+- 📏 Calculate **average ride distance** for each vehicle type
+- ❌ Get **total canceled rides by customers**
+- 🧾 List **top 5 customers** by number of rides
+- 🚫 Identify **incomplete rides** along with their reasons
+- 💳 Analyze **payment methods**, especially UPI
+- 🚗 Find **min and max driver ratings** for "Sedan" rides
+- ⭐ Get **average customer ratings** per vehicle type
+- 💰 Calculate **total booking value** for successful rides
 
-Ride Distance
+---
 
-Cancellations & Incomplete Reasons
+## 🛠 Tools Used
 
-🔍 Key Insights Extracted
-✅ Retrieved all successful bookings
+| Tool           | Purpose                     |
+|----------------|-----------------------------|
+| MySQL Workbench | Query execution & analysis |
+| Microsoft Excel | Data cleaning/export       |
+| CSV Format      | Data import into MySQL     |
 
-📏 Calculated average ride distance by vehicle type
+---
 
-❌ Summarized canceled rides by customers and drivers
+## 📈 Learning Outcomes
 
-🧾 Listed top 5 customers based on ride counts
+- Applied real-world SQL queries to analyze business data.
+- Strengthened database design and data extraction skills.
+- Gained experience in working with structured data for analytics.
 
-💳 Filtered UPI-based payments
+---
 
-⭐ Found min & max driver ratings for Prime Sedan
 
-🚫 Identified incomplete rides with reasons
+---
 
-📊 Analyzed average customer rating per vehicle type
 
-🛠 Tools & Technologies
-MySQL Workbench for query execution
 
-Microsoft Excel for raw data
 
-CSV file format for data import
+
